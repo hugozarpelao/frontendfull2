@@ -7,6 +7,7 @@ import { ContextoUsuario } from "./contextos/contexto.js";
 import FormularioLogin from "./formularios/login.jsx";
 import { useState } from 'react';
 import FormularioCarro from "./formularios/carro.jsx";
+import FormularioReserva from "./formularios/reserva.jsx";
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
             <Route path='/carros' element={<Carro />} />
             <Route path='/carros/cadastro' element={<FormularioCarro />} />
             <Route path='/grupos' element={<GrupoCarro />} />
+            <Route path='/reservas' element={<FormularioReserva />} />
             <Route path='/' element={<Home />} />
             <Route path='*' element={<Erro404 />} />
           </Routes>

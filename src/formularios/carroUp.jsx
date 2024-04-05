@@ -111,7 +111,7 @@ export default function FormularioCarroUp(props) {
                 <Row>
                     <Col>
                         <Form.Group>
-                            <Form.Label>Grupo</Form.Label>
+                            <Form.Label>Quarto</Form.Label>
                             <InputGroup hasValidation>
                                 <CaixaSelecao
                                     enderecoFonteDados="http://localhost:4000/grupo"
@@ -120,7 +120,7 @@ export default function FormularioCarroUp(props) {
                                     funcaoSelecao={setValorSelecionado}
                                     required />
                                 <Form.Control.Feedback type="invalid">
-                                    Informe o Grupo.
+                                    Informe a acomodação.
                                 </Form.Control.Feedback>
                             </InputGroup>
                         </Form.Group>

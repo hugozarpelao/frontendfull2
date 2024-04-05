@@ -19,6 +19,7 @@ export default function Menu() {
                     <Nav className="me-auto">
                         <Nav.Link><Button variant="outline-primary"><Link to="/carros">Carros</Link></Button></Nav.Link>
                         <Nav.Link><Button variant="outline-primary"><Link to="/grupos">Grupos</Link></Button></Nav.Link>
+                        <Nav.Link><Button variant="outline-primary"><Link to="/reservas">Reservas</Link></Button></Nav.Link>
                     </Nav>
                     <Navbar.Collapse className="justify-content-end">
                         <Navbar.Text className="me-2">
